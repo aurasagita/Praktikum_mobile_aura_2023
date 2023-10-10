@@ -3,6 +3,7 @@ import 'dart:io';
 void main() {
   int height;
   
+  
   do {
     stdout.write('Masukkan tinggi segitiga (minimal 5, ganjil): ');
     height = int.parse(stdin.readLineSync()!);
