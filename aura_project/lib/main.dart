@@ -56,11 +56,11 @@ class MyApp extends StatelessWidget {
                       child: Text(
                         'Transfer',
                         style: TextStyle(color: Colors.white, fontSize: 16),
-                      ),
+                        ),
                     ),
                     Expanded(
                       child: ListView.builder(
-                        itemCount: 5, // Ganti dengan jumlah item yang sesuai
+                        itemCount: 8, // Ganti dengan jumlah item yang sesuai
                         itemBuilder: (context, index) {
                           final itemImage =
                               'https://ichef.bbci.co.uk/news/640/cpsprodpb/356F/production/_128397631_gettyimages-1286178456.jpg';
